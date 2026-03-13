@@ -1,0 +1,23 @@
+baseURL = "https://yourdomain.com/"
+languageCode = "en-us"
+title = "My Blog"
+theme = "archie"
+
+[params]
+  description = "My personal blog"
+  math = false
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = 3
