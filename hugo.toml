@@ -6,6 +6,7 @@ theme = "archie"
 [params]
   description = "My personal blog"
   math = false
+  customCSS = ["css/custom.css"]
 
 [[menu.main]]
   name = "Home"
@@ -21,7 +22,3 @@ theme = "archie"
   name = "About"
   url = "/about"
   weight = 3
-
-[params]
-  customCSS = ["css/custom.css"]
-customCSS = ["css/custom.css"]
