@@ -1,0 +1,19 @@
+/* Hover - light pink instead of dark red */
+a:hover,
+a:focus {
+  background-color: #f4a0a0 !important;
+  color: #232333 !important;
+  outline: none !important;
+}
+
+/* HR - solid red line instead of dotted purple */
+hr {
+  border-top: 3px solid #dc143c !important;
+  border-block-start: 3px solid #dc143c !important;
+}
+
+/* Footer top border - solid red instead of dotted purple */
+footer {
+  border-top: 0.4rem solid #dc143c !important;
+  border-block-start: 0.4rem solid #dc143c !important;
+}
