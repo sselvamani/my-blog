@@ -1,0 +1,15 @@
+/* Change hover color to light color */
+a:hover {
+  color: #e88080 !important;
+}
+
+nav a:hover {
+  color: #e88080 !important;
+}
+
+/* Change dotted line to solid red */
+hr {
+  border: none;
+  border-top: 2px solid #cc0000 !important;
+  background: none !important;
+}
